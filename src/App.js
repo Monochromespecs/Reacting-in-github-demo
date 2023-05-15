@@ -6,7 +6,7 @@ function App() {
     {
       id: "e1",
       title: "Toilet Paper",
-      amount: 94.12,
+      amount: 94.11,
       date: new Date(2020, 7, 14),
     },
     {
