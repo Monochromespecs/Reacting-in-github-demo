@@ -20,7 +20,7 @@ function ExpenseItem(props) {
     //remember that date objects can't be output normally
     //utilize dynamic placeholders
     <div className="expense-item">
-      <ExpenseDate date={props.date} /> {/* */}
+      <ExpenseDate date={props.date} /> {/* set the 'date' prop */}
       <div className="expense-item__description">
         
         <h2>{props.title}</h2>
